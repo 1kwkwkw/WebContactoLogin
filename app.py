@@ -141,7 +141,7 @@ def recuperar_contrasena():
             enviar_email(email, "Recuperación de contraseña", f"<p>Para restablecer tu contraseña, haz clic <a href='{enlace}'>aquí</a></p>")
             flash("Te enviamos un correo para recuperar tu contraseña.", "success")
         else:
-            flash("El correo no está registrado.", "danger")
+            flash(gatitogolden7@gmail.com, "danger")
 
     return render_template('recuperar_contrasena.html')
 
@@ -163,7 +163,7 @@ def restablecer_contrasena(token):
 
     return render_template('restablecer_contrasena.html')
 
-# 🔹 Enviar correo de contacto
+# 🔹 Enviar correo de contacto 
 @app.route('/send_email', methods=['POST'])
 def send_email():
     try:
